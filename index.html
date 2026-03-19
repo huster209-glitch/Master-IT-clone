@@ -1,106 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <section class="promo">
-        <div class="container">
-            <div class="promo__block">
-                <div class="promo__item">
-                    <div class="promo__item_img">
-                        <img src="images/Back on track.jpg" alt="">
-                    </div>
-                    <div class="promo__item_box">
-                        <div class="promo__item_play"><img src="icons/play-solid.svg" alt=""></div>
-                        <div class="promo__item_name">Back On Track</div>
-                        <audio src="audios/BackOnTrack.mp3"></audio>
-                    </div>
-                    <div class="promo__item_icons">
-                        <img src="icons/star-regular.svg" alt="">
-                        <img src="icons/download-solid.svg" alt="">
-                    </div>
-                    <div class="promo__item_progress">
-                        <div class="promo__item_progress_item"></div>
-                    </div>
-                </div>
-                <div class="promo__item">
-                    <div class="promo__item_img">
-                        <img src="images/Deadlocked.jpg" alt="">
-                    </div>
-                    <div class="promo__item_box">
-                        <div class="promo__item_play"><img src="icons/play-solid.svg" alt=""></div>
-                        <div class="promo__item_name">Deadlocked</div>
-                        <audio src="audios/Deadlocked.mp3"></audio>
-                    </div>
-                    <div class="promo__item_icons">
-                        <img src="icons/star-regular.svg" alt="">
-                        <img src="icons/download-solid.svg" alt="">
-                    </div>
-                    <div class="promo__item_progress">
-                        <div class="promo__item_progress_item"></div>
-                    </div>
-                </div>
-                <div class="promo__item">
-                    <div class="promo__item_img">
-                        <img src="images/Running Up That Hill.jpg" alt="">
-                    </div>
-                    <div class="promo__item_box">
-                        <div class="promo__item_play"><img src="icons/play-solid.svg" alt=""></div>
-                        <div class="promo__item_name">Running Up That Hill</div>
-                        <audio src="audios/Running Up That Hill.mp3"></audio>
-                    </div>
-                    <div class="promo__item_icons">
-                        <img src="icons/star-regular.svg" alt="">
-                        <img src="icons/download-solid.svg" alt="">
-                    </div>
-                    <div class="promo__item_progress">
-                        <div class="promo__item_progress_item"></div>
-                    </div>
-                </div>
-                <div class="promo__item">
-                    <div class="promo__item_img">
-                        <img src="images/Unity.jpg" alt="">
-                    </div>
-                    <div class="promo__item_box">
-                        <div class="promo__item_play"><img src="icons/play-solid.svg" alt=""></div>
-                        <div class="promo__item_name">Unity</div>
-                        <audio src="audios/Unity - TheFatRat.mp3"></audio>
-                    </div>
-                    <div class="promo__item_icons">
-                        <img src="icons/star-regular.svg" alt="">
-                        <img src="icons/download-solid.svg" alt="">
-                    </div>
-                    <div class="promo__item_progress">
-                        <div class="promo__item_progress_item"></div>
-                    </div>
+    <header>
+        <div class="Behruz-site-header">
+            <a href="/">
+                <img src="Images/logo.svg" alt="">
+            </a>
+            <ul class="site-header-links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Category</a>
+                </li>
+                <li>
+                    <a href="#">Promo</a>
+                </li>
+                <li>
+                    <a href="#">Article Tips</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+            <div class="site-header-login">
+                <button class="Login">Log in</button>
+                <button class="Register">Register</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="site-hero">
+            <div class="site-desc">
+                <h2 class="h2">Master your <span>unique skills</span> and get your dream carrier with us</h2>
+                <p class="h2-p">Discover & master your unique skills and Start your journey today with over 100+ courses to choose from here</p>
+                <div class="btns">
+                    <button class="hero-join">Join now</button>
+                    <button class="hero-learn">Learn more</button>
                 </div>
             </div>
-            <div class="promo__player">
-                <div class="promo__player_block">
-                    <div class="promo__player_img">
-                        <img src="images/Back on track.jpg" alt="">
-                    </div>
-                    <div id="title" class="promo_title">Back On Track</div>
-                    <div class="promo__player_info">
-                        <img class="backward_play" src="icons/backward-solid.svg" alt="">
-                        <img class="active_play" src="icons/play-circle-solid.svg" alt="">
-                        <img class="forward_play" src="icons/forward-solid.svg" alt="">
-                    </div>
+            <img src="Images/image 1.svg" alt="">
+        </div>
 
-                    <div class="promo__player_progress">
-                        <div class="promo__player_progress_item"></div>
+        <div class="site-company">
+            <h3 class="h3">Trusted by various <span>company</span></h3>
+            <div class="site-company-img">
+                <img src="Images/Microsoft.svg" alt="Microsoft logo" class="Mirosoft">
+                <img src="Images/Qualcomm.svg" alt="Qualcomm logo" class="Qualcomm">
+                <img src="Images/Google.svg" alt="Google logo" class="Google">
+                <img src="Images/cisco.svg" alt="cisco logo" class="cisco">
+                <img src="Images/Microchip.svg" alt="Microchip logo" class="Microchip">
+            </div>
+        </div>
+
+        <div class="site-prog">
+            <h2 class="h2-1">Our <span>programs</span> that you can choose</h2>
+            <div class="prog-img">
+                <div class="img1">
+                    <img src="Images/Rectangle 1.svg" alt="">
+                    <div class="img1-desc">
+                        <h3>Bootcamp</h3>
+                        <p>Help learn new skills, gain exciting internship experience, and land your dream job!</p>
                     </div>
-                    <audio class="active_music" src="audios/BackOnTrack.mp3"></audio>
+                </div>
+                <div class="img2">
+                    <img src="Images/Rectangle 2.svg" alt="">
+                    <div class="img2-desc">
+                        <h3>Private mentoring</h3>
+                        <p>Learn more intensively according to the time you have set. No need to pay a lot of money, you can get a reliable mentor!</p>
+                    </div>
+                </div>
+                <div class="img3">
+                    <img src="Images/Rectangle 3.svg" alt="">
+                    <div class="img3-desc">
+                        <h3>E-course</h3>
+                        <p>A wide selection of programs, expert mentors and affordable prices - learn new skills more easily according to your needs!</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <script src="app.js">
-        
+
+        <div class="courses">
+            <div class="courses-item1">
+                <img src="images/1.svg" alt="">
+                <h3>3D Modeling & animation</h3>
+            </div>
+            <div class="courses-item2">
+                <img src="images/2.svg" alt="">
+                <h3>Motion Graphic & Animation</h3>
+            </div>
+            <div class="courses-item3">
+                <img src="images/3.svg" alt="">
+                <h3>Graphic Design</h3>
+            </div>
+            <div class="courses-item4">
+                <img src="images/4.svg" alt="">
+                <h3>Video Editing</h3>
+            </div>
+            <div class="courses-item5">
+                <img src="images/5.svg" alt="">
+                <h3>UI/UX Design</h3>
+            </div>
+            <div class="courses-item6">
+                <img src="images/6.svg" alt="">
+                <h3>Website Development</h3>
+            </div>
+            <div class="courses-item7">
+                <img src="images/7.svg" alt="">
+                <h3>Mobile App Development </h3>
+            </div>
+            <div class="courses-item8">
+                <img src="images/8.svg" alt="">
+                <h3>Digital Marketing</h3>
+            </div>
+        </div>
+
+        <section class="popular">
+            <h3>Our <span>popular</span> course in <br> <span>2025</span> </h3>
+            <div class="popular-item">
+                <div class="popular-item1">
+                    <img src="./images/Rectangle 9.svg" alt="Blender logo">
+                    <h3>Complete Blender Creator: Learn 3D Modelling for Beginn...</h3>
+                    <p>Learn the basics of 3D modeling with Blender from scratch! This e-course is designed for beginners who want to master modeling, sculpti...</p>
+                    <div class="popular-reiting">
+                        <p>$30.99</p>
+                        <span>
+                            <i class="fa-solid fa-star" style="color:rgba(77, 85, 204, 1); "></i>
+                            4.7 | 66.255 students
+                        </span>
+                    </div>
+                    <button>Join Now</button>
+                </div>
+                <div class="popular-item2">
+                    <img src="./images/Rectangle 9 (1).svg" alt="Blender logo">
+                    <h3>Complete Full Stack Web Development - AI Integrated</h3>
+                    <p>Master full stack web development from front-end to back-end, enhanced with AI integration! This course guides you through building moder...</p>
+                    <div class="popular-reiting">
+                        <p>$45.99</p>
+                        <span>
+                            <i class="fa-solid fa-star" style="color:rgba(77, 85, 204, 1); "></i>
+                            4.3 | 86.525 students
+                        </span>
+                    </div>
+                    <button>Join Now</button>
+                </div>
+                <div class="popular-item3">
+                    <img src="./images/Rectangle 9.svg" alt="Blender logo">
+                    <h3>Personal Travel Advisor - Fullstack Hybrid App Dev Cour...</h3>
+                    <p>Learn to build a fullstack hybrid personal travel advisor app from scratch! This course covers cross-platform development with modern tools l...</p>
+                    <div class="popular-reiting">
+                        <p>$25.99</p>
+                        <span>
+                            <i class="fa-solid fa-star" style="color:rgba(77, 85, 204, 1); "></i>
+                            4.4 | 26.783 students
+                        </span>
+                    </div>
+                    <button>Join Now</button>
+                </div>
+            </div>
+            <button class="popular-link">View all courses</button>
+        </section>
+
+        <div class="about">
+            <h3>What the <span>say</span> about <br> us?</h3>
+            <div class="about-comments">
+                <div class="about-comment1">
+                    <div class="about-comment1-img">
+                        <img src="Images/comment1.svg" alt="">
+                        <div class="about-comment1-desc">
+                            <h4>Angel Geidt</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p>Love Grant! Thank you for the thorough walk-through of the different tools Blender has to offer! I feel much more accustomed to the user interface, as well as more comfortable experimenting and improving my art.</p>
+                </div>
+                <div class="about-comment2">
+                    <div class="about-comment1-img">
+                        <img src="Images/comment2.svg" alt="">
+                        <div class="about-comment1-desc">
+                            <h4>Justin Philips</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p>it's so interesting as a beginner, and learn many things so far , nice course over all.</p>
+                </div>
+                <div class="about-comment3">
+                    <div class="about-comment1-img">
+                        <img src="Images/comment3.svg" alt="">
+                        <div class="about-comment1-desc">
+                            <h4>Roger Curtis</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p>Being new to video editing this class help me understand the program so much I feel like a pro. Phil does an excellent job in explaining and any steps he goes over quickly has a small lecture about more details within that step! I
+                        would recommend this to anyone that has an interest in video editing in adobe!</p>
+                </div>
+                <div class="about-comment4">
+                    <div class="about-comment1-img">
+                        <img src="Images/comment4.svg" alt="">
+                        <div class="about-comment1-desc">
+                            <h4>Desirae Mango</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p>The course is well structured, the teacher's explanations are good and clear. I would highly recommend this course!</p>
+                </div>
+                <div class="about-comment5">
+                    <div class="about-comment1-img">
+                        <img src="Images/comment5.svg" alt="">
+                        <div class="about-comment1-desc">
+                            <h4>Haylie Aminoff</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p>bro this course is really helpful and useful for me as a student from non it background i want to build m carrier in IT field as a begineer this is so good to me to understand and later i want to learn devops completely this one will
+                        helps me to clear basics on devops and cybersequrity
+                    </p>
+                </div>
+                <div class="about-comment6">
+                    <div class="about-comment1-img">
+                        <img src="Images/comment6.svg" alt="">
+                        <div class="about-comment1-desc">
+                            <h4>Wilson George</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p>I'm busy with the HTML part of the course. Coming from a basic web development background this lecturer really explains the concepts very well. Unlike other Lecturers he explains the how but also the why with examples. He's teaching
+                        style is very good. I cannot wait for the rest of the course and will update once I'm further.</p>
+                </div>
+                <div class="about-comment7">
+                    <div class="about-comment1-img">
+                        <img src="Images/comment7.svg" alt="">
+                        <div class="about-comment1-desc">
+                            <h4>Zain Philips</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p>This course is full of amazing info for everyone. It also includes resources to help you follow along easily. The instructor explains things so clearly, making it super easy to catch on. Plus, he keeps everything updated, so you always
+                        have the latest features and techniques.</p>
+                </div>
+                <div class="about-comment8">
+                    <div class="about-comment1-img">
+                        <img src="Images/comment8.svg" alt="">
+                        <div class="about-comment1-desc">
+                            <h4>Gustavo George</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p>I learned a lot and the course contents was paced very well. The projects were also very helpful to understand the topics. The free React refresher was super nice to have as it puts you into that mindset of knowing the difference between
+                        Next.js the framework and React.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>A lot of people <span>ask</span> this <br> <span>question</span></h3>
+            <div class="question-start">
+                <img src="./images/Rectangle 10.svg" alt="question logo">
+                <div class="question-item">
+                    <div class="question-item1">
+                        <div class="question-header">
+                            <h3>What skill level is required to take these courses?</h3>
+                            <button class="toggle-btn">
+                                <img src="./images/arrow-down.svg" alt="arrow-down logo">
+                            </button>
+                        </div>
+                        <div class="answer">
+                            <p>
+                                All courses are designed for beginners to intermediate learners. No prior experience is needed — each course starts from the basics and gradually advances to more complex topics.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-item1">
+                        <div class="question-header">
+                            <h3>Do I need specific software to follow the lessons?</h3>
+                            <button class="toggle-btn">
+                                <img src="./images/arrow-down.svg" alt="arrow-down logo">
+                            </button>
+                        </div>
+                        <div class="answer">
+                            <p>
+                                All courses are designed for beginners to intermediate learners. No prior experience is needed — each course starts from the basics and gradually advances to more complex topics.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-item1">
+                        <div class="question-header">
+                            <h3>Are the courses project-based?</h3>
+                            <button class="toggle-btn">
+                                <img src="./images/arrow-down.svg" alt="arrow-down logo">
+                            </button>
+                        </div>
+                        <div class="answer">
+                            <p>
+                                All courses are designed for beginners to intermediate learners. No prior experience is needed — each course starts from the basics and gradually advances to more complex topics.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-item1">
+                        <div class="question-header">
+                            <h3>Will I receive a certificate after completing a course?</h3>
+                            <button class="toggle-btn">
+                                <img src="./images/arrow-down.svg" alt="arrow-down logo">
+                            </button>
+                        </div>
+                        <div class="answer">
+                            <p>
+                                All courses are designed for beginners to intermediate learners. No prior experience is needed — each course starts from the basics and gradually advances to more complex topics.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-item1">
+                        <div class="question-header">
+                            <h3>Can I access the courses anytime?</h3>
+                            <button class="toggle-btn">
+                                <img src="./images/arrow-down.svg" alt="arrow-down logo">
+                            </button>
+                        </div>
+                        <div class="answer">
+                            <p>
+                                All courses are designed for beginners to intermediate learners. No prior experience is needed — each course starts from the basics and gradually advances to more complex topics.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="question-item1">
+                        <div class="question-header">
+                            <h3>Are these courses suitable for building a professional portfolio?</h3>
+                            <button class="toggle-btn">
+                                <img src="./images/arrow-down.svg" alt="arrow-down logo">
+                            </button>
+                        </div>
+                        <div class="answer">
+                            <p>
+                                All courses are designed for beginners to intermediate learners. No prior experience is needed — each course starts from the basics and gradually advances to more complex topics.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="login">
+            <div class="login-part1">
+                <div class="login-desc">
+                    <h2>Get in touch and we are happy to <span>help</span> and <span>discuss</span> your learning</h2>
+                    <p>Have questions or want to request a custom course or learning path? Send us a message—our team is ready to help!</p>
+                </div>
+                <div class="login-input">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required class="name">
+                    <div class="twice">
+                        <input type="tel" name="tel" id="tel" placeholder="Your Phone" required class="tel">
+                        <input type="email" name="email" id="email" placeholder="Your Email" required class="email">
+                    </div>
+                    <textarea name="opinion" id="opinion" placeholder="Tell me about your questions" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </div>
+            <div class="login-part2">
+                <img src="Images/Rectangle 2 (1).svg" alt="">
+                <div class="other">
+                    <p>Contact Our Other Social Media :</p>
+                    <div class="logos">
+                        <i class="fa-brands fa-facebook" style="color: rgba(77, 85, 204, 1);"></i>
+                        <div class="instagramm">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="discord">
+                            <i class="fa-brands fa-discord"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-rectangle">
+            <img class="top-rectangle" src="./images/footer/top-rectangle.svg" alt="top rectangle logo">
+            <img class="bottom-rectangle" src="./Images/footer/bottom rectangle.svg" alt="bottom rectangle logo">
+            <img class="bottom-right-rectangle" src="./Images/footer/bottom right.svg" alt="bootom right rectangle">
+        </div>
+        <div class="footer-start">
+            <div class="footer-start1">
+                <div class="upper">
+                    <img src="./images/award.svg" alt="award logo"> Master.It
+                </div>
+                <p>We provide beginner-friendly, project-based online <br> courses in design, development, and digital skills <br> helping you grow your creativity and career, one <br> lesson at a time.</p>
+            </div>
+            <div class="right">
+                <div class="footer-start2">
+                    <h3>Master.It</h3>
+                    <ul class="footer-start2-links">
+                        <li>
+                            <a href="#">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Pricing
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Testimonial
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-start3">
+                    <h3>Become a tutor</h3>
+                    <ul class="footer-start3-links">
+                        <li>
+                            <a href="#">
+                                How to apply
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Blog Articles
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Course Details
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-start4">
+                    <h3>Help Center</h3>
+                    <ul class="footer-start4-links">
+                        <li>
+                            <a href="#">
+                                Community
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Academy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Support
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        once: true
+    });
     </script>
 </body>
+
 </html>

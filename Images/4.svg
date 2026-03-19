@@ -1,0 +1,12 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.000000" height="48.000000" fill="none" customFrame="#000000">
+	<rect id="video-play" width="48.000000" height="48.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<g id="vuesax/bold/video-play">
+		<g id="video-play">
+			<path id="Vector" d="M29.46 4L18.54 4L18.54 12.72L29.46 12.72L29.46 4Z" fill="rgb(77,85,204)" fill-rule="evenodd" />
+			<path id="Vector" d="M32.46 4L32.46 12.72L43.74 12.72C42.72 7.22 38.66 4.02 32.46 4Z" fill="rgb(77,85,204)" fill-rule="nonzero" />
+			<path id="Vector" d="M4 15.72L4 32.38C4 39.66 8.34 44 15.62 44L32.38 44C39.66 44 44 39.66 44 32.38L44 15.72L4 15.72ZM28.88 32.36L24.72 34.76C23.84 35.26 22.98 35.52 22.18 35.52C21.58 35.52 21.04 35.38 20.54 35.1C19.38 34.44 18.74 33.08 18.74 31.32L18.74 26.52C18.74 24.76 19.38 23.4 20.54 22.74C21.7 22.06 23.18 22.18 24.72 23.08L28.88 25.48C30.42 26.36 31.26 27.6 31.26 28.94C31.26 30.28 30.4 31.46 28.88 32.36Z" fill="rgb(77,85,204)" fill-rule="nonzero" />
+			<path id="Vector" d="M15.54 4C9.34001 4.02 5.28001 7.22 4.26001 12.72L15.54 12.72L15.54 4Z" fill="rgb(77,85,204)" fill-rule="nonzero" />
+			<path id="Vector" opacity="0" />
+		</g>
+	</g>
+</svg>
